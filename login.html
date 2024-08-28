@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css"> 
+        <title>Login Page</title>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <div class="grid">
+            <div class="item1">
+                <h3>Create your account:</h3>
+                <input id="user" type="text" placeholder="username">
+                <input id="pw" type="password" placeholder="password">
+                <input id="pw2" type="password" placeholder="repeat password">
+                <br>
+                <button onclick="test()">Create user</button>
+                <p id="p"></p>
+            </div>
+            <div class="item2">
+                <h3>Log in to your account</h3>
+                <input id="userl" type="text" placeholder="username">
+                <input id="pwl" type="password" placeholder="password">
+                <br>
+                <button onclick="login()">Log in</button>
+                <p id="p2"></p>
+            </div>
+            <div class="item3" id="item3">
+                <h3>Captcha:</h3>
+                <p>Classifique o nível de</p>
+                <p>homossexualidade do anao:</p>
+                <input type="range" id="captcha">
+                <button onclick="captcha()">Submit</button>
+                <p id="p3"></p>
+                <a id="link"></a>
+            </div>
+            <script src="login.js"></script>
+        </div>
+    </body>
+</html>

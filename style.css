@@ -1,0 +1,49 @@
+.grid_container{
+    display: grid;
+    grid-template-areas: 
+    "header header header header header header header login"
+    "sidebar . league league league master-league master-league master-league"
+    "sidebar . league league league master-league master-league master-league"
+    "sidebar . . . . replays replays replays"
+    "sidebar . . . . replays replays replays" ;
+}
+
+.item1{
+    grid-area: header;
+}
+
+.item2{
+    grid-area: league;
+}
+
+.item3{
+    grid-area: master-league;
+}
+.item4{
+    display: none;
+    grid-area: rules;
+}
+
+.item5{
+    grid-area: replays;
+}
+
+.item6{
+    grid-area: sidebar;
+    border-style: none none none groove;
+    border-color: #009fff
+}
+
+.item7{
+    grid-area: login;
+}
+
+.bomb {
+    border-radius: 10px;
+}
+
+.masti{
+    height:200px;
+    width: 400px;
+    border-radius: 10px;
+}
